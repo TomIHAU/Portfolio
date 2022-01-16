@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { myWork } from "./workArray";
-import { DiAptana } from "react-icons/di";
 import { Link } from "react-router-dom";
+import { BsGithub } from "react-icons/bs";
 
 const Work = ({ linkBack }) => {
   const [workDisplay, setWorkDisplay] = useState();
@@ -30,12 +30,7 @@ const Work = ({ linkBack }) => {
       </div>
       {workDisplay ? (
         <section class="projectCards">
-          <a
-            href={myWork[workDisplay].href}
-            target="_blank"
-            className="card"
-            rel="noreferrer"
-          >
+          <div className="card">
             <img
               className="image"
               src={myWork[workDisplay].src}
@@ -43,16 +38,30 @@ const Work = ({ linkBack }) => {
             />
 
             <div className="overlay">
-              <div className="hoverText">{myWork[workDisplay].hoverText}</div>
+              <a
+                href={myWork[workDisplay].deployed}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {myWork[workDisplay].deployTitle}
+              </a>
+              <a
+                href={myWork[workDisplay].github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsGithub />
+              </a>
+              {/* <div className="hoverText">{myWork[workDisplay].hoverText}</div> */}
             </div>
-          </a>
+          </div>
+          <div class="projectInfo">
+            <p>{myWork[workDisplay].info}</p>
+          </div>
         </section>
       ) : (
         ""
       )}
-      <Link className="secret" to="/whatisthisplace">
-        <DiAptana />
-      </Link>
     </>
   );
 };

@@ -6,7 +6,7 @@ const Contact = ({ linkBack }) => {
       {linkBack}
       <h2>Contact:</h2>
 
-      <section className="text">
+      <section className="contactText">
         <a
           href="mailto: thaywood988@gmail.com"
           target="_blank"

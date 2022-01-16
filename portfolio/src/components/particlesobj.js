@@ -2,79 +2,107 @@ export const part = [
   {
     background: {
       color: {
-        value: "#061125",
+        value: "#2e1d17",
       },
+      position: "50% 50%",
+      repeat: "no-repeat",
+      size: "cover",
     },
-    fpsLimit: 60,
+    fullScreen: {
+      zIndex: -10,
+    },
     interactivity: {
       events: {
         onClick: {
           enable: false,
-          mode: "push",
         },
         onHover: {
           enable: true,
           mode: "repulse",
         },
-        resize: true,
       },
+
       modes: {
-        bubble: {
-          distance: 400,
-          duration: 2,
-          opacity: 8,
-          size: 40,
-          speed: 3,
-        },
-        push: {
-          quantity: 4,
-        },
         repulse: {
-          distance: 200,
-          duration: 0.4,
+          distance: 180,
+          speed: 0.1,
+          duration: 2,
+          opacity: 0.8,
+          size: 40,
+        },
+        grab: {
+          distance: 400,
         },
       },
     },
     particles: {
       color: {
-        value: "#6b411a",
+        value: "#ccc",
       },
       links: {
         enable: false,
       },
-      collisions: {
-        enable: false,
-      },
       move: {
-        direction: "none",
+        attract: {
+          rotate: {
+            x: 600,
+            y: 1200,
+          },
+        },
         enable: true,
-        outMode: "out",
-        random: true,
-        speed: 3,
-        straight: false,
+        path: {},
+        outModes: {
+          bottom: "out",
+          left: "out",
+          right: "out",
+          top: "out",
+        },
+        spin: {},
       },
       number: {
         density: {
           enable: true,
-          area: 550,
+          area: 100,
         },
         value: 80,
       },
       opacity: {
-        value: 0.5,
-        random: true,
-        anim: { enable: false, speed: 1, opacity_min: 0.01, sync: false },
-      },
-      shape: {
-        type: "circle",
+        random: {
+          enable: true,
+        },
+        value: {
+          min: 0.1,
+          max: 0.5,
+        },
+        animation: {
+          enable: true,
+          speed: 3,
+          minimumValue: 0.1,
+        },
       },
       size: {
-        random: true,
-        value: 90,
-        anim: { enable: false, speed: 40, size_min: 0.2, sync: false },
+        random: {
+          enable: true,
+        },
+        value: {
+          min: 1,
+          max: 5,
+        },
+        animation: {
+          enable: true,
+          speed: 20,
+          minimumValue: 0.1,
+        },
+      },
+      twinkle: {
+        particles: {
+          enable: true,
+          color: {
+            value: "#ffaaa0",
+          },
+        },
       },
     },
-    detectRetina: false,
   },
   {
     background: {
@@ -206,104 +234,78 @@ export const part = [
   {
     background: {
       color: {
-        value: "#2e1d17",
+        value: "#061125",
       },
-      position: "50% 50%",
-      repeat: "no-repeat",
-      size: "cover",
     },
-    fullScreen: {
-      zIndex: -10,
-    },
+    fpsLimit: 60,
     interactivity: {
       events: {
         onClick: {
-          enable: false,
+          enable: true,
+          mode: "push",
         },
         onHover: {
-          enable: false,
+          enable: true,
+          mode: "bubble",
         },
+        resize: true,
       },
-
       modes: {
         bubble: {
-          distance: 400,
-          duration: 2,
-          opacity: 0.8,
+          distance: 200,
+          duration: 1,
+          opacity: 0.9,
           size: 40,
+          speed: 3,
         },
-        grab: {
-          distance: 400,
+        push: {
+          quantity: 4,
+        },
+        repulse: {
+          distance: 200,
+          duration: 0.4,
         },
       },
     },
     particles: {
       color: {
-        value: "#ccc",
+        value: "#6b411a",
       },
       links: {
         enable: false,
       },
+      collisions: {
+        enable: false,
+      },
       move: {
-        attract: {
-          rotate: {
-            x: 600,
-            y: 1200,
-          },
-        },
+        direction: "none",
         enable: true,
-        path: {},
-        outModes: {
-          bottom: "out",
-          left: "out",
-          right: "out",
-          top: "out",
-        },
-        spin: {},
+        outMode: "out",
+        random: true,
+        speed: 3,
+        straight: false,
       },
       number: {
         density: {
           enable: true,
-          area: 100,
+          area: 550,
         },
         value: 80,
       },
       opacity: {
-        random: {
-          enable: true,
-        },
-        value: {
-          min: 0.1,
-          max: 0.5,
-        },
-        animation: {
-          enable: true,
-          speed: 3,
-          minimumValue: 0.1,
-        },
+        value: 0.5,
+        random: true,
+        anim: { enable: false, speed: 1, opacity_min: 0.01, sync: false },
+      },
+      shape: {
+        type: "circle",
       },
       size: {
-        random: {
-          enable: true,
-        },
-        value: {
-          min: 1,
-          max: 5,
-        },
-        animation: {
-          enable: true,
-          speed: 20,
-          minimumValue: 0.1,
-        },
-      },
-      twinkle: {
-        particles: {
-          enable: true,
-          color: {
-            value: "#ffaaa0",
-          },
-        },
+        random: true,
+        value: 90,
+        anim: { enable: false, speed: 40, size_min: 0.2, sync: false },
       },
     },
+    detectRetina: false,
   },
 ];
