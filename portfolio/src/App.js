@@ -48,7 +48,7 @@ function App() {
   );
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
       {particleRefresher}
 
       <Routes>

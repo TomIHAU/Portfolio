@@ -24,7 +24,14 @@ const Contact = ({ linkBack }) => {
         >
           Linkedin
         </a>
-        <a>Resume</a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://drive.google.com/file/d/15r4hjuRoujY32ugh5j1RGBmvwY_hHMT2h0ddh4HXKUc/view?usp=sharing"
+          download
+        >
+          Resume
+        </a>
       </section>
     </>
   );
