@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Link, BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import MainPage from "./components/MainPage";
@@ -53,6 +52,7 @@ function App() {
 
       <Routes>
         <Route
+          exact
           path="/"
           element={
             <MainPage
@@ -62,10 +62,18 @@ function App() {
             />
           }
         />
-        <Route path="/about" element={<About linkBack={linkBack} />} />
-        <Route path="/work" element={<Work linkBack={linkBack} />} />
-        <Route path="/contact" element={<Contact linkBack={linkBack} />} />
-        <Route path="/whatisthisplace" element={<Edit linkBack={linkBack} />} />
+        <Route exact path="/about" element={<About linkBack={linkBack} />} />
+        <Route exact path="/work" element={<Work linkBack={linkBack} />} />
+        <Route
+          exact
+          path="/contact"
+          element={<Contact linkBack={linkBack} />}
+        />
+        <Route
+          exact
+          path="/whatisthisplace"
+          element={<Edit linkBack={linkBack} />}
+        />
       </Routes>
     </BrowserRouter>
   );

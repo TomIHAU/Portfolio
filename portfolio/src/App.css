@@ -92,7 +92,7 @@ p {
 
 img {
   border: 2px solid var(--borderColor);
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .image {
@@ -119,7 +119,7 @@ img {
 }
 .overlay {
   position: absolute;
-  top: 2px;
+
   left: auto;
   right: auto;
   height: 100%;
@@ -127,7 +127,7 @@ img {
   opacity: 0;
   transition: 0.5s;
   background-color: black;
-  border-radius: 10px;
+  border-radius: 4px;
   z-index: 10;
   display: flex;
   z-index: 10;
@@ -199,8 +199,9 @@ a.back {
 }
 
 .workTitles {
-  position: relative;
-  margin: 15% 0 0 55%;
+  top: 23%;
+  right: 20%;
+  position: absolute;
   color: #e0e0e0;
   z-index: 10;
   font-size: 120%;
@@ -218,6 +219,7 @@ a.back {
 }
 #changeBackground {
   font-weight: bold;
+  color: #b15fca;
 }
 
 #changeBackground:hover {

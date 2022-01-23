@@ -1,7 +1,7 @@
 export const myWork = [
   {},
   {
-    title: "First Group Project.",
+    title: "Covid Travel Information Website.",
     src: "./images/screenshotFinal.png",
     alt: "Project 1 From BootCamp",
     deployTitle: "Vac-cin-ation",
@@ -10,7 +10,16 @@ export const myWork = [
     info: "A covid smart travel website. This project was made during lock-down, the idea came about by the desire to leave this city. Even just for a week. It is a travel website that shows current covid information in the destination country. ",
   },
   {
-    title: "Second Group Project.",
+    title: "Weather Forecast Dashboard.",
+    src: "./images/weather.png",
+    alt: "Five day weather forecast",
+    deployTitle: "Weather Forecast",
+    deployed: "https://tomihau.github.io/WeatherDashboard/",
+    github: "https://github.com/TomIHAU/WeatherDashboard",
+    info: "A website that you can search a city's name, and it returns a five day weather forecast. The last five unique searches are kept in local storage. So the user can get results from a previous city at the click of a button!",
+  },
+  {
+    title: "A trading website, PsuedoShopper.",
     src: "./images/PsuedoShopper.png",
     alt: "Project 2 From BootCamp",
     deployTitle: "PsuedoShopper",
@@ -19,7 +28,7 @@ export const myWork = [
     info: "A trading website. That trades nothing in particular. But it does demonstrate multiple users interacting, buying and selling. It is a framework to show a website can have its own economy, even if it has no reason. It also charts the sale price of an item every time it sells",
   },
   {
-    title: "First Full Stack app",
+    title: "Tech Blogger.",
     src: "./images/techBlogging.png",
     alt: "A Small Tech Blogging Site",
     deployTitle: "Tech Blogger",
@@ -28,13 +37,13 @@ export const myWork = [
     info: "A Blogging website. It is made for blogging about technology, but users can write about anything. Users can comment on each others posts, and a user has full CRUD functionality on both posts and comments ",
   },
   {
-    title: "Weather Forecast Dashboard.",
-    src: "./images/weatherdash.png",
-    alt: "Five day weather forecast",
-    deployTitle: "Weather Forecast",
-    deployed: "https://tomihau.github.io/WeatherDashboard/",
-    github: "https://github.com/TomIHAU/WeatherDashboard",
-    info: "Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sedmollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non  lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper  imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus  in. Sed rhoncus molli",
+    title: "Basic Quiz website.",
+    src: "./images/Quizing.png",
+    alt: "Quiz website",
+    deployTitle: "QuizSite",
+    deployed: "https://tomihau.github.io/QuizWebsite/",
+    github: "https://github.com/TomIHAU/QuizWebsite",
+    info: "Just a little Quiz. Its honest. It only has three questions. The site allows users to save their score on a leaderboard, the top five score are shown. It really appeals to the competitive users. ",
   },
   {
     title: "Time management website.",
@@ -43,15 +52,6 @@ export const myWork = [
     deployTitle: "Time Block",
     deployed: "https://tomihau.github.io/timeblock/",
     github: "https://github.com/TomIHAU/timeblock",
-    info: "Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sedmollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non  lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper  imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus  in. Sed rhoncus molli",
-  },
-  {
-    title: "Basic Quiz website.",
-    src: "./images/Quizing.png",
-    alt: "Quiz website",
-    deployTitle: "QuizSite",
-    deployed: "https://tomihau.github.io/QuizWebsite/",
-    github: "https://github.com/TomIHAU/QuizWebsite",
-    info: "Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sedmollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non  lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper  imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus  in. Sed rhoncus molli",
+    info: "An hourly breakdown of the workday, allows the users to input what tasks they need to do at what time. Also changes the color of the background of the tasks depending on the current time",
   },
 ];
