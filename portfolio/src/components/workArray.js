@@ -2,7 +2,7 @@ export const myWork = [
   {},
   {
     title: "Covid Travel Information Website.",
-    src: "./Portfolio/images/screenshotFinal.png",
+    src: "./images/screenshotFinal.png",
     alt: "Project 1 From BootCamp",
     deployTitle: "Vac-cin-ation",
     deployed: "https://jonmorg-hs.github.io/Project1/",
