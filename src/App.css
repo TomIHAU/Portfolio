@@ -127,7 +127,7 @@ img {
   opacity: 0;
   transition: 0.5s;
   background-color: black;
-  border-radius: 4px;
+  border-radius: 2px;
   z-index: 10;
   display: flex;
   z-index: 10;
