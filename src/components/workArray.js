@@ -2,7 +2,7 @@ export const myWork = [
   {},
   {
     title: "EasyMeal.",
-    src: "./images/weather.png",
+    src: "./images/easyMeal.png",
     alt: "Easy meal easy life",
     deployTitle: "EasyMeal",
     deployed: "https://easymealeasylife.herokuapp.com/",
