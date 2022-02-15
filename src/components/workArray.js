@@ -1,6 +1,15 @@
 export const myWork = [
   {},
   {
+    title: "EasyMeal.",
+    src: "./images/weather.png",
+    alt: "Easy meal easy life",
+    deployTitle: "EasyMeal",
+    deployed: "https://easymealeasylife.herokuapp.com/",
+    github: "https://github.com/TomIHAU/easyMeal",
+    info: "An e-commerce app that allows the user to purchase and plan their weeks meals. A solo MERN project made in two . Uses graphql and SQL, the final project for a web dev boot camp.",
+  },
+  {
     title: "Covid Travel Information Website.",
     src: "./images/screenshotFinal.png",
     alt: "Project 1 From BootCamp",
